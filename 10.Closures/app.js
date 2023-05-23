@@ -1,12 +1,51 @@
-getName();
-console.log(getName1)
-console.log(getName)
+//1
+// function x(){
+//     var a=7;
+//     function y(){
+//         console.log(a);
+//     }
+//     y();
+// }
+// x();
 
-var x = 7;
-function getName(){
-    console.log("Namaste Js")
-}
+//2
+// function x(){
+//     var a=7;
+//     function y(){
+//         console.log(a);
+//     }
+//     return y;
+// }
+// let z = x();
+// console.log(z)   //ƒ y(){
+                //     console.log(a);
+               // }
+// z()
 
-var getName1 = function(){
-    console.log("NJ-2")
-}
+
+//OTHER CASES
+// function x(){
+//     var a=7;
+//     function y(){
+//         console.log(a);
+//     }
+//     a =100;
+//     return y;
+// }
+// let z = x();
+//  z() //100
+
+
+ function z(){
+    var b = 900;
+    function x(){
+        var a=7;
+        function y(){
+            console.log(a,b);
+        }
+        y()
+    }
+    x()   
+ }
+ z() 
+
